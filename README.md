@@ -10,6 +10,7 @@ It allows users to add, edit, and delete tasks with a clean interface.
 - Store tasks in a SQLite database  
 - Simple and clean UI with CSS styling
 
+
 ⚙️ Installation & Running Locally
 1️⃣ Clone the repository
 git clone https://github.com/your-username/flask-task-manager.git
@@ -18,12 +19,16 @@ cd flask-task-manager
 2️⃣ Create and activate a virtual environment (recommended)
 python -m venv venv
 
+
 Activate it:
 
 Windows (PowerShell)
+
 venv\Scripts\activate
 
+
 Mac/Linux
+
 source venv/bin/activate
 
 3️⃣ Install dependencies
@@ -42,7 +47,9 @@ python
 python app.py
 
 6️⃣ Open in browser
+
 Go to:
+
 http://127.0.0.1:5000/
 
 
