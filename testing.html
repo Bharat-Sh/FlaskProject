@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple To-Do (Plain HTML)</title>
+</head>
+<body>
+  <h1>Simple To-Do (Test Page)</h1>
+
+  <!-- Add Task (static form; no JS/server logic) -->
+  <form method="post" action="#">
+    <label>
+      Task:
+      <input type="text" name="content" placeholder="Enter task" />
+    </label>
+    <br /><br />
+    <label>
+      Due Date:
+      <input type="date" name="date" />
+    </label>
+    <br /><br />
+    <button type="submit">Add Task</button>
+  </form>
+
+  <hr />
+
+  <!-- Static example task list -->
+  <h2>Tasks</h2>
+  <ul>
+    <li>Learn Flask (Due: 2025-09-01)</li>
+    <li>Set up requirements.txt (Due: 2025-09-02)</li>
+    <li>Try Bootstrap via CDN (Due: 2025-09-05)</li>
+  </ul>
+
+  <!-- Optional: tabular view -->
+  <h2>Tasks (Table)</h2>
+  <table border="1" cellpadding="6" cellspacing="0">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Task</th>
+        <th>Due Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Create project structure</td>
+        <td>2025-08-30</td>
+        <td>Pending</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Link static/style.css</td>
+        <td>2025-08-31</td>
+        <td>Pending</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Test index.html</td>
+        <td>2025-09-01</td>
+        <td>Pending</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><em>Note:</em> This is a static test page — the “Add Task” button won’t save anything without JS or a backend.</p>
+</body>
+</html>
